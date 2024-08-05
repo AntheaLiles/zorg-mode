@@ -1,0 +1,13 @@
+{
+  "zorgmode": {
+    "description": "Zorg Mode API",
+    "functions": [
+      {
+        "name": "init",
+        "type": "function",
+        "description": "Initialize the Zorg Mode plugin",
+        "parameters": []
+      }
+    ]
+  }
+}

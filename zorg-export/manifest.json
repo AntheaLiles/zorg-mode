@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Zorg Export",
+  "version": "1.0",
+  "description": "Export Zotero collections to org-mode format",
+  "homepage_url": "https://github.com/AntheaLiles/zorg-mode/zorg-export",
+  "applications": {
+    "zotero": {
+      "id": "zorgmode@anthealiles.com",
+      "strict_min_version": "7.0.0",
+      "strict_max_version": "7.*",
+      "update_url": "https://github.com/AntheaLiles/zorg-mode/main/update.json"
+    }
+  },
+  "icons": {
+    "48": "icons/icon.png",
+    "96": "icons/icon@2x.png"
+  },
+  "experiment_apis": {
+    "zorgmode": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["zorgmode"]],
+        "script": "background.js"
+      }
+    }
+  }
+}
