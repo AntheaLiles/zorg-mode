@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "zorgmode@anthealiles.com": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://github.com/AntheaLiles/zorg-mode/releases/download/v1.0/zorg-export-1.0.xpi"
+        }
+      ]
+    }
+  }
+}
